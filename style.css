@@ -48,7 +48,7 @@ header h1 {
 
 header p {
     font-size: 22px;
-    line-height: 1.8px;
+    line-height: 1.4;
     margin-top: 12px;
     position: relative;
     z-index: 2;
@@ -205,10 +205,12 @@ ul li {
     }
 
      .header-img.left {
+        width: clamp(80px, 10vw, 140px)
         left: 20px;
     }
 
     .header-img.right {
+        width: clamp(80px, 10vw, 140px)
         right: 20px;
     }
 
