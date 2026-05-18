@@ -217,6 +217,13 @@ ul li {
     .vine {
         display: none;
     }
+    .left-vine,{
+        display: none;
+    }   
+        
+    .right-vine {
+        display: none;
+    }    
 
     .side {
         display: none;
@@ -241,9 +248,70 @@ ul li {
     header {
         padding: 40px 20px;
     }
+    
+    .vine{
+        display: none;
+    }   
 
     .header-img {
-        display: none;
+        display: 60px;
+    }
+     header h1 {
+        font-size: 31px;  
+        line-height: 1.3;
+    }
+
+    header p {
+        font-size: 14px;  
+        line-height: 1.4;
+        margin-top: 8px;
+    }
+    
+     #about h2 {
+        font-size: 32px;
+    }
+
+    #about ul li {
+        font-size: 18px;
+    }
+
+    #about img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    section {
+        padding: 30px 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    .card {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .vine{
+        display:none;
+    }    
+    header h1 {
+        font-size: 24px;
+    }
+    
+    header p {
+        font-size: 12px;
     }
 }
 
